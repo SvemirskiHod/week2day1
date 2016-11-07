@@ -19,7 +19,7 @@ function getAndPrintHTML () {
   // the callback is invoked when all of the data has been received
   // (the `end` of the stream)
     response.on('end', function() {
-    console.log("Here is the appended data:s \n ", appended);
+    console.log("Here is the appended data: \n ", appended);
     console.log('Response stream complete.');
   });
 
